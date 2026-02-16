@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://profile-project-pi.vercel.app/"
+        "https://profile-project-pi.vercel.app"
     ],
     credentials: true
 }));
